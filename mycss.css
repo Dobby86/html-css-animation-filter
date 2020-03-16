@@ -55,8 +55,24 @@
 .ex-8-img {
     transition:all  4s;
 }
+
 .ex-8-img:hover {
 
     filter: grayscale(100%) invert(100%);
     border-radius: 20%;
+}
+/* -----9 */
+.ex-9-img {
+    transition:all  4s;
+}
+
+.ex-9-img:hover {
+
+    filter: contrast(4)  invert(100%);
+    border-radius: 10%;
+    transform: scale(0.5);
+}
+/* ---------10 */
+.ex-10-icon {
+    
 }
